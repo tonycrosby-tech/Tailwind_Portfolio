@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './stylesheets/App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <>
+    <BrowserRouter>
+      <Switch>
+        <Route></Route>
+      </Switch>
+    </BrowserRouter>
     </>
   );
 }
